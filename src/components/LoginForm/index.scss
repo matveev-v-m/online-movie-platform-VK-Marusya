@@ -1,0 +1,55 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 24px;
+
+  &__input {
+    position: relative;
+    padding: 16px 16px 16px 52px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  &__btn {
+    margin-top: 12px;
+    padding: 16px 48px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 28px;
+    background: rgb(103, 165, 235);
+  }
+
+  &__label {
+    position: relative;
+  }
+
+  &__svg {
+    position: absolute;
+    left: 16px;
+    top: 20px;
+  }
+
+  &__error {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.error {
+  border-color: red;
+}
+
+.error path {
+  fill: red;
+}

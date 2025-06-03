@@ -1,0 +1,33 @@
+.profile-link-item {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.profile-link-item:hover {
+  color: rgba(180, 169, 255, 1);
+}
+
+.active {
+  border-bottom: 2px solid rgba(220, 93, 252, 1);
+}
+
+.profile-link-main {
+  @media (max-width: 1020px) {
+    display: none;
+  }
+}
+
+.profile-link-mpbile {
+  display: none;
+  @media (max-width: 1020px) {
+    display: block;
+  }
+}
+
+.profile-link-mpbile svg path {
+  transition: 0.2s ease-in-out;
+}
+
+.profile-link-mpbile:hover svg path {
+  fill: rgba(180, 169, 255, 1);
+}

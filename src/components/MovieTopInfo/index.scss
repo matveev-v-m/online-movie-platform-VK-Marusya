@@ -1,0 +1,41 @@
+.movie-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+  @media (max-width: 750px) {
+    margin-bottom: 12px;
+  }
+
+  &__rating {
+    display: flex;
+    padding: 4px 12px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 16px;
+    background-color: rgb(48, 142, 33);
+
+    &__svg {
+      margin-right: 4px;
+    }
+  }
+
+  &__item {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    @media (max-width: 750px) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+.movie-info li {
+  flex: 0 0 auto;
+}

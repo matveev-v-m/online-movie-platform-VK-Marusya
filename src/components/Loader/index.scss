@@ -1,0 +1,27 @@
+.loader-wrap {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.loader {
+  align-self: center;
+  width: 150px;
+  height: 150px;
+  border: 10px solid #ffffff96;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotation 0.6s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

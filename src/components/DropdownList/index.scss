@@ -1,0 +1,108 @@
+.drop-down {
+  position: absolute;
+  background-color: #393b3c;
+  z-index: 10000;
+  top: 50px;
+  right: 0;
+  width: 450px;
+  border-radius: 8px;
+  @media (max-width: 1020px) {
+    width: calc(100% - 40px);
+    right: 20px;
+    top: 80px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 16px;
+    gap: 20px;
+    @media (max-width: 750px) {
+      padding: 24px 20px;
+      display: flex;
+      column-gap: 16px;
+      flex-direction: row;
+    }
+    &__item {
+      border: 1px solid transparent;
+      transition: 0.2s ease-in-out;
+      @media (max-width: 750px) {
+        min-width: 200px;
+      }
+
+      &__link {
+        display: flex;
+        column-gap: 16px;
+        @media (max-width: 750px) {
+          flex-direction: column;
+        }
+
+        &__img {
+          max-width: 40px;
+          max-height: 52px;
+          @media (max-width: 750px) {
+            margin-bottom: 16px;
+            max-width: 220px;
+            max-height: 206px;
+          }
+        }
+        &__wrap {
+          .movie-info {
+            font-size: 14px;
+            gap: 12px;
+            margin-bottom: 0px;
+            padding: 0;
+
+            &__rating {
+              font-size: 12px;
+              line-height: 16px;
+              padding: 3px 8.25px;
+              font-weight: 700;
+
+              &__svg {
+                width: 9.5px;
+              }
+            }
+          }
+
+          &__title {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    &__item:hover {
+      border: 1px solid #92929281;
+    }
+  }
+}
+
+.drop-down-mobile {
+  @media (max-width: 750px) {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    overflow-y: auto;
+    z-index: 1;
+  }
+}
+
+.drop-down-mobile::-webkit-scrollbar {
+  width: 0;
+}
+
+.drop-down__loader {
+  position: absolute;
+  padding: 20px 28px;
+  background-color: #393b3c;
+  z-index: 10000;
+  top: 50px;
+  right: 0;
+  width: 560px;
+  border-radius: 8px;
+}

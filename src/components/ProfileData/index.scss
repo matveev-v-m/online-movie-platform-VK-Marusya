@@ -1,0 +1,77 @@
+.profile-data {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 64px;
+    @media (max-width: 750px) {
+      margin-bottom: 40px;
+    }
+
+    &__item {
+      display: flex;
+
+      &__icon {
+        margin-right: 16px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 700;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.5);
+        @media (max-width: 750px) {
+          width: 48px;
+          height: 48px;
+        }
+      }
+
+      &__info {
+        display: flex;
+        flex-direction: column;
+
+        &__label {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px;
+          @media (max-width: 750px) {
+            color: #ffffff80;
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+
+        &__naming {
+          color: #fff;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 32px;
+          @media (max-width: 750px) {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  &__btn {
+    padding: 16px 48px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 28px;
+    background: rgb(103, 165, 235);
+    @media (max-width: 450px) {
+      width: 100%;
+    }
+  }
+  &__btn:hover {
+    background-color: #89befc;
+  }
+}
