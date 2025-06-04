@@ -105,7 +105,7 @@
 
 .trailer-btn {
   padding: 17px 45px;
-  background-color: #67a5eb;
+  background-color: var(--primary-color);
   transition: 0.2s ease-in-out;
 
   @media (max-width: 750px) {
@@ -114,12 +114,12 @@
 }
 
 .trailer-btn:hover {
-  background-color: #89befc;
+  background-color: var(--primary-color-hover);
 }
 
 .about-film-btn {
   padding: 17px 45px;
-  background-color: #333333;
+  background-color: var(--secondary-color);
   transition: 0.2s ease-in-out;
   @media (max-width: 750px) {
     width: 100%;
@@ -131,18 +131,18 @@
 }
 
 .about-film-btn:hover {
-  background-color: #5c5c5c;
+  background-color: var(--secondary-color-hover);
 }
 
 .refresh-btn {
   padding: 18px 23px;
-  background-color: #333333;
+  background-color: var(--secondary-color);
   line-height: 0;
   transition: 0.2s ease-in-out;
 }
 
 .refresh-btn:hover {
-  background-color: #5c5c5c;
+  background-color: var(--secondary-color-hover);
 }
 
 .refresh-btn:hover path {

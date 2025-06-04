@@ -3,6 +3,19 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --primary-color: #67a5eb;
+  --primary-color-hover: #89befc;
+  --secondary-color: #333333;
+  --secondary-color-hover: #5c5c5c;
+  --drop-down-bg: #393b3c;
+  --primary-color-dark: #1f80ee;
+  --color-like: #b4a9ff;
+  --color-like-dark: #8674fa;
+  --color-border-bottom-btn: #dc5dfc;
+  --color-link-hover: #b4a9ff;
+}
+
 *:focus-visible {
   outline: none;
 }

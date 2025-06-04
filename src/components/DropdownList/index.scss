@@ -1,6 +1,6 @@
 .drop-down {
   position: absolute;
-  background-color: #393b3c;
+  background-color: var(--drop-down-bg);
   z-index: 10000;
   top: 50px;
   right: 0;
@@ -99,7 +99,7 @@
 .drop-down__loader {
   position: absolute;
   padding: 20px 28px;
-  background-color: #393b3c;
+  background-color: var(--drop-down-bg);
   z-index: 10000;
   top: 50px;
   right: 0;
