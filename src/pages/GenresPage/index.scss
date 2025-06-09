@@ -65,7 +65,7 @@
     }
 
     &__item:hover {
-      border: 2px solid rgba(220, 93, 252, 1);
+      border: 2px solid var(--color-border-bottom-btn);
       scale: 1.05;
     }
   }

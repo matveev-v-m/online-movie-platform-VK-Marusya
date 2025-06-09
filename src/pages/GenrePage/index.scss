@@ -38,8 +38,8 @@
   }
 
   &__title:hover {
-    color: rgba(180, 169, 255, 1);
-    border-bottom: 2px solid rgba(220, 93, 252, 1);
+    color: var(--color-like);
+    border-bottom: 2px solid var(--color-border-bottom-btn);
   }
 
   &__title button svg path {
@@ -47,7 +47,7 @@
   }
 
   &__title:hover button svg path {
-    fill: rgba(180, 169, 255, 1);
+    fill: var(--color-like);
   }
 
   &__load-btn {
@@ -60,10 +60,10 @@
     font-weight: 700;
     line-height: 24px;
     border-radius: 28px;
-    background: rgb(103, 165, 235);
+    background: var(--primary-color);
   }
 
   &__load-btn:hover {
-    background-color: #89befc;
+    background-color: var(--primary-color-hover);
   }
 }

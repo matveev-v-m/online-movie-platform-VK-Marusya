@@ -4,11 +4,11 @@
 }
 
 .profile-link-item:hover {
-  color: rgba(180, 169, 255, 1);
+  color: var(--color-like);
 }
 
 .active {
-  border-bottom: 2px solid rgba(220, 93, 252, 1);
+  border-bottom: 2px solid var(--color-border-bottom-btn);
 }
 
 .profile-link-main {
@@ -29,5 +29,5 @@
 }
 
 .profile-link-mpbile:hover svg path {
-  fill: rgba(180, 169, 255, 1);
+  fill: var(--color-like);
 }

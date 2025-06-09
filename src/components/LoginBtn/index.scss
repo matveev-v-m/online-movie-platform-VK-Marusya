@@ -10,7 +10,7 @@
 }
 
 .login-btn:hover {
-  color: rgba(180, 169, 255, 1);
+  color: var(--color-like);
 }
 
 .login-btn-mobile {
@@ -29,5 +29,5 @@
 }
 
 .login-btn-mobile:hover svg path {
-  fill: rgba(180, 169, 255, 1);
+  fill: var(--color-like);
 }

@@ -14,6 +14,7 @@ html {
   --color-like-dark: #8674fa;
   --color-border-bottom-btn: #dc5dfc;
   --color-link-hover: #b4a9ff;
+  --color-error: #ff0000;
 }
 
 *:focus-visible {

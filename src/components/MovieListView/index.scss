@@ -17,8 +17,8 @@
     max-width: 280px;
     flex: 1 1 auto;
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 0px 80px 0px rgba(255, 255, 255, 0.33);
+    border: 1px solid #ffffff40;
+    box-shadow: 0px 0px 80px 0px #ffffff54;
     transition: 0.2s ease-in-out;
 
     &__btn {
@@ -49,7 +49,7 @@
       height: 48px;
       border-radius: 50px;
       background-color: #fff;
-      color: #6a5dc2;
+      color: var(--color-like-dark);
       z-index: 100;
       font-size: 24px;
       font-weight: 700;
@@ -66,7 +66,7 @@
   }
 
   &__item:hover {
-    border: 2px solid rgba(220, 93, 252, 1);
+    border: 2px solid var(--color-border-bottom-btn);
     scale: 1.05;
   }
 

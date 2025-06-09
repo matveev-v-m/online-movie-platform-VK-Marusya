@@ -22,7 +22,7 @@
         font-size: 24px;
         font-weight: 700;
         border-radius: 30px;
-        background: rgba(255, 255, 255, 0.5);
+        background: #ffffff80;
         @media (max-width: 750px) {
           width: 48px;
           height: 48px;
@@ -66,12 +66,12 @@
     font-weight: 700;
     line-height: 24px;
     border-radius: 28px;
-    background: rgb(103, 165, 235);
+    background: var(--primary-color);
     @media (max-width: 450px) {
       width: 100%;
     }
   }
   &__btn:hover {
-    background-color: #89befc;
+    background-color: var(--primary-color-hover);
   }
 }

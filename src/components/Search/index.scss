@@ -17,11 +17,11 @@
 }
 
 .search-input:hover {
-  border: 2px solid rgba(180, 169, 255, 1);
+  border: 2px solid var(--color-like);
 }
 
 .search-input:focus {
-  border: 2px solid rgba(180, 169, 255, 1);
+  border: 2px solid var(--color-like);
 }
 
 .search-input__btn-clear {
@@ -46,7 +46,7 @@
 }
 
 .search-input-mobile:hover svg path {
-  fill: rgba(180, 169, 255, 1);
+  fill: var(--color-like);
 }
 
 .open-search-mobile {

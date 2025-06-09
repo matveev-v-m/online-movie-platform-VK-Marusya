@@ -24,19 +24,19 @@
       }
 
       &__link:hover {
-        border-color: #b4a9ff;
+        border-color: var(--color-like);
       }
 
       &__link:hover svg path {
-        fill: #b4a9ff;
+        fill: var(--color-like);
       }
 
       &__link:focus {
-        border-color: #b4a9ff;
+        border-color: var(--color-like);
       }
 
       &__link:focus svg path {
-        fill: #b4a9ff;
+        fill: var(--color-like);
       }
     }
 

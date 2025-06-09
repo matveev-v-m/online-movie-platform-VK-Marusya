@@ -25,7 +25,7 @@
     line-height: 24px;
     color: #fff;
     border-radius: 28px;
-    background: rgb(103, 165, 235);
+    background: var(--primary-color);
   }
 
   &__label {
@@ -40,16 +40,16 @@
 
   &__error {
     font-size: 18px;
-    color: red;
+    color: var(--color-error);
     text-align: center;
     margin-bottom: 10px;
   }
 }
 
 .error {
-  border-color: red;
+  border-color: var(--color-error);
 }
 
 .error path {
-  fill: red;
+  fill: var(--color-error);
 }
