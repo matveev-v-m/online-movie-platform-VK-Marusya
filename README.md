@@ -1,4 +1,4 @@
-<img src="https://github.com/matveev-v-m/online-movie-platform-VK-Marusya/blob/master/src/assets/favicon.svg" alt="VK-marusya favicon" width="20"> #**VK Маруся** – Онлайн-платформа для поиска и оценки фильмов
+<img src="https://github.com/matveev-v-m/online-movie-platform-VK-Marusya/blob/master/src/assets/favicon.svg" alt="VK-marusya favicon" width="20"> **VK Маруся** – Онлайн-платформа для поиска и оценки фильмов
 
 Этот проект представляет собой бета-версию стримингового сервиса **"VK Маруся"**, который позволяет пользователям искать фильмы, добавлять их в избранное и смотреть трейлеры. Подключен к **CinemaGuide API** для получения данных о фильмах и жанрах
 
