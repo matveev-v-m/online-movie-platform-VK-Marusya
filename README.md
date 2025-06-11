@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# VK Маруся – Онлайн-платформа для поиска и оценки фильмов
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой бета-версию стримингового сервиса **"VK Маруся"**, который позволяет пользователям искать фильмы, добавлять их в избранное и смотреть трейлеры. Подключен к **CinemaGuide API** для получения данных о фильмах и жанрах
 
-Currently, two official plugins are available:
+## 🔍 Основные возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Поиск фильмов** – по названию
+- **Избранное** – добавление и удаление фильмов (только для авторизованных пользователей)
+- **Просмотр трейлеров** – на главной странице и на странице фильма
+- **Случайный фильм** – возможность выбрать случайный фильм на главной странице
+- **Фильтрация по жанрам** – удобный просмотр фильмов по категориям
+- **Авторизация** – регистрация и вход
+- **Аккаунт пользователя** – страница с личной информацией и списком избранных фильмов
+- **Адаптивный дизайн** – корректное отображение на разных устройствах
 
-## Expanding the ESLint configuration
+## 🛠 Технологический стек
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React + TypeScript**
+- **Управление состоянием:** Redux Toolkit
+- **Запросы к API:** React Query
+- **Маршрутизация:** React Router
+- **Работа с формами:** React Hook Form
+- **Валидация форм:** Zod
+- **Стилизация:** SCSS
+- **Сборка:** Vite
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Запуск проекта
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Клонируйте репозиторий:
+   ```bash
+   npm clone https://github.com/matveev-v-m/online-movie-platform-VK-Marusya.git
+   ```
+2. Установите зависимости:
+   ```bash
+   npm install
+   ```
+3. Запустите проект в режиме разработки:
+   ```bash
+   npm run dev
+   ```
