@@ -2,7 +2,7 @@
 
 Этот проект представляет собой бета-версию стримингового сервиса **"VK Маруся"**, который позволяет пользователям искать фильмы, добавлять их в избранное и смотреть трейлеры. Подключен к **CinemaGuide API** для получения данных о фильмах и жанрах
 
-Готовый сайт можно посмотреть перейдя по <a href="http://n960734h.beget.tech/" target="_blank">ссылке</a>
+Сайт можно посмотреть перейдя по <a href="http://n960734h.beget.tech/" target="_blank">ссылке</a>
 
 <img src="https://github.com/matveev-v-m/online-movie-platform-VK-Marusya/blob/master/public/screenshot.png" alt="VK-marusya screenshot">
 
