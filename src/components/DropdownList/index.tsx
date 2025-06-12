@@ -41,9 +41,6 @@ export const DropdownList: FC<DropdownListProp> = ({
   });
 
   switch (searchMovies.status) {
-    case "pending":
-      return <div className="drop-down__loader">Loader</div>;
-
     case "error":
       return <div>{searchMovies.error.message}</div>;
 
