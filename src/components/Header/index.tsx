@@ -27,7 +27,7 @@ export const Header = () => {
                 pathname.includes("/genres") && "active"
               }`}
             >
-              <Link to={"/genres"}>Жанр</Link>
+              <Link to={"/genres"}>Жанры</Link>
             </li>
             <li
               className={`header__nav__list__item header-genres-mobile ${
